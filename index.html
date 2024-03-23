@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equif="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="flex">
+            <div class="logo flex">
+                <img src = "happy earth.png" alt="">
+                <h1><span>Green</span>Earth</h1>
+            </div>
+
+            <ul class="flex">
+                <li><a href= "#"> Definisi Lingkungan</a></li>
+                <li><a href= "#"> Manfaat Lingkungan</a></li>
+                <li><a href= "#"> Dampak Tidak Menjaga Lingkungan</a></li>
+            </ul>
+
+            
+            <button style="cursor: pointer;" onclick="show()">Klik Ini !</button>
+
+        </header>
+
+        <div class="content flex">
+            <div class="left">
+               
+                <h1>
+                    Mari Menjaga Lingkungan !
+                    <br> jaga lingkungan untuk masa depan
+                </h1>
+                <p> Menurut para ahli, definisi lingkungan adalah adalah semua benda dan daya serta kondisi, termasuk di dalamnya manusia dan tingkah perbuatannya, terdapat dalam ruang di mana manusia berada dan mempengaruhi kelangsungan hidupnya serta kesejahteraan manusia.</p>
+
+                <h3>Today
+        <!-- id hasil --> 
+            <div id="hasil"></div>
+                <script>
+                    let tanggal = new Date();
+                    document.getElementById("hasil").innerHTML = tanggal
+                </script>
+                </h3>
+
+            </div>
+
+            <div class="right">
+                <img src="hug planet.png" alt="">
+
+            </div>
+
+        </div>
+
+        
+    </div> 
+
+</body>
+</html>
